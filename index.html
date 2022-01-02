@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hacker.i.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+            font-family: 'VT323', monospace;
+            color: #238636;
+        }
+        header {
+            max-width: 70%;
+            margin: auto;
+            border: 2px dashed green;
+            text-align: center;
+            padding: 5px;
+            margin-top: 15px;
+        }
+        .container {
+            margin: auto;
+            border: 2px dashed green;
+            max-width: 70%;
+            min-height: 80vh;
+            margin-top: 50px;
+        }
+        /* .text {
+
+        } */
+        .text h2 {
+            color: darkred;
+            font-size: 80px;
+            text-align: center;
+            /* border: 1px solid yellow; */
+        }
+        .text h3 {
+            text-align: center;
+            font-size: 40px;
+            padding: 15px 0;
+        }
+        .text h3 span {
+            color: rgb(44, 219, 0);
+        }
+        .icon {
+            /* border: 1px solid yellow; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .icon i {
+            font-size: 200px;
+            color: yellow;
+            animation-name: radio;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes radio {
+            100%{
+                transform:rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>fsociety</h1>
+    </header>
+    <div class="main">
+        <div class="container">
+            <div class="text">
+                <h2>Warning</h2>
+                <h3>You Have Been <span>HACKED</span></h3>
+            </div>
+            <div class="icon">
+                <i class="fas fa-radiation"></i>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
